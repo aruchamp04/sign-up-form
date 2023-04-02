@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOG IN Page</title>
+        
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        
+     <div class="box">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img class="rez"src="user (1).png">
+                </div>
+                <input id="firstName" type="text" onchange="myFunction()" placeholder="enter user name"> <br>
+                <div id="greeting"></div>
+               <p class="h2">User<br>Sign up
+                </p><h5 class="user-name"></h5>
+            </div>
+            <div class="sec1">
+                <input type="text" name="input1" class="name same" placeholder="Your name" required >
+            </div>
+            <div class="sec2">
+                <input type="email" name="input2" class="email same" placeholder="your email" required>
+            </div>
+            <div class="sec3">
+                <i class="uil uil-lock"></i>
+            <i class="uil uil-eye-slash showHidePw"></i>
+                <input type="password" name="input3" class="password same" placeholder="Your password" required>
+            </div>
+            <div class="sec4">
+                 <input type="checkbox" class="check"><span class="loss go">remember me</span>
+            </div>
+            <div class="sec5">
+                <span class="loss">I am signing as a</span>
+                <input type="radio" class="radi "><span class="loss">student </span>
+            </div>
+            <div class="forgot">
+                <a class="loss use" href="#">Forgot password?</a>
+            </div>
+            <div class="sub">
+                <a href="#"><button class="hup" type="submit" >Log in</button></a>
+            </div>
+            <div class="footer">
+                <span class="loss"> or sign up using</span><br>
+                <img class="door"src="google.png">
+                <img class="door"src="facebook.png">
+                <img class="door"src="twitter.png">
+                
+            </div>
+            <a id="dopen"href="https://docs.google.com/forms/d/e/1FAIpQLSdBp1z8tOtrRmrIuyy9_Ub0nkSIA1EK4eXfDApZtt4Hq5nc1w/viewform">feedback</a>
+        </div>
+     </div>
+<script src="index.js"></script>
+    </body>
+</html>
